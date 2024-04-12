@@ -1,7 +1,22 @@
 <div align="center">
   
   ![header](https://capsule-render.vercel.app/api?type=waving&height=220&color=0:bdbcf6,100:fcdbe4&text=WELCOME&reversal=true&textBg=false&fontColor=FFFFFF&fontSize=50&fontAlignY=35&animation=fadeIn&stroke=8f64af70&strokeWidth=2&desc=상상을%20개발하는%20개발자,%20정유선입니다.&descAlignY=55)
-  
+
+  <p>
+    안녕하세요!🖐🏻
+    <br />
+    상상을 구현하는 웹 개발자, 정유선입니다.
+  </p>
+  <p>
+    💻진행중인 프로젝트: <b>DANOC</b>
+  </p>
+  <h2>📞Contect me📞</h2>
+  <div>
+    <a href="mailto:acft9609@kakao.com">
+      <img src="https://img.shields.io/badge/acft9609@kakao.com-fff?style=social&logo=gmail&logoColor=FFCD00">
+    </a>
+  </div>
+  <br />
   <h2>🔧SKILL🔧</h2>
   <div>
     <p><b>Frontend</b></p>
@@ -18,6 +33,7 @@
       <img src="https://img.shields.io/badge/styledcomponents-DB7093?style=for-the-badge&logo=styledcomponents&logoColor=fff">
     </div>
   </div>
+  <div>🔹</div>
   <div>
     <p><b>Backend</b></p>
     <div>
@@ -25,6 +41,7 @@
       <img src="https://img.shields.io/badge/laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=fff">
     </div>
   </div>
+  <div>🔹</div>
   <div>
     <p><b>Database</b></p>
     <div>
@@ -32,6 +49,7 @@
       <img src="https://img.shields.io/badge/mariadb-003545?style=for-the-badge&logo=mariadb&logoColor=fff">
     </div>
   </div>
+  <div>🔹</div>
   <div>
     <p><b>Server</b></p>
     <div>
@@ -40,6 +58,7 @@
       <img src="https://img.shields.io/badge/nginx-009639?style=for-the-badge&logo=nginx&logoColor=fff">
     </div>
   </div>
+  <div>🔹</div>
   <div>
     <p><b>Tools</b></p>
     <div>
