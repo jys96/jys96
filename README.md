@@ -45,6 +45,8 @@
     <div>
       <img src="https://img.shields.io/badge/vscode-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=fff">
       <img src="https://img.shields.io/badge/vim-019733?style=for-the-badge&logo=vim&logoColor=fff">
+      <img src="https://img.shields.io/badge/dbeaver-382923?style=for-the-badge&logo=dbeaver&logoColor=fff">
+      <img src="https://img.shields.io/badge/postman-FF6C37?style=for-the-badge&logo=postman&logoColor=fff">
     </div>
     <div>
       <img src="https://img.shields.io/badge/jira-0052CC?style=for-the-badge&logo=jira&logoColor=fff">
