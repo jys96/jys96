@@ -8,7 +8,7 @@
     상상을 구현하는 웹 개발자, 정유선입니다.
   </p>
   <p>
-    💻진행중인 프로젝트: <b>간단 정산 어플</b>
+    💻<b>SKNetwork AI 교육 수강중</b>
   </p>
   <h2>📞Contect me📞</h2>
   <div>
@@ -31,6 +31,10 @@
       <img src="https://img.shields.io/badge/vue.js-4FC08D?style=for-the-badge&logo=vuedotjs&logoColor=fff">
       <img src="https://img.shields.io/badge/react-61DAFB?style=for-the-badge&logo=react&logoColor=fff">
       <img src="https://img.shields.io/badge/styledcomponents-DB7093?style=for-the-badge&logo=styledcomponents&logoColor=fff">
+    </div>
+    <div>
+      <b>FLUTTER</b>
+      <b>Dart</b>
     </div>
   </div>
   <div>🔹</div>
