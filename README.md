@@ -33,8 +33,8 @@
       <img src="https://img.shields.io/badge/styledcomponents-DB7093?style=for-the-badge&logo=styledcomponents&logoColor=fff">
     </div>
     <div>
-      <b>FLUTTER</b>
-      <b>Dart</b>
+      <img src="https://img.shields.io/badge/flutter-02569B?style=for-the-badge&logo=flutter&logoColor=fff">
+      <img src="https://img.shields.io/badge/dart-0175C2?style=for-the-badge&logo=dart&logoColor=fff">
     </div>
   </div>
   <div>🔹</div>
@@ -43,6 +43,9 @@
     <div>
       <img src="https://img.shields.io/badge/php-777BB4?style=for-the-badge&logo=php&logoColor=fff">
       <img src="https://img.shields.io/badge/laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=fff">
+    </div>
+    <div>
+      <img src="https://img.shields.io/badge/python-3776AB?style=for-the-badge&logo=python&logoColor=fff">
     </div>
   </div>
   <div>🔹</div>
