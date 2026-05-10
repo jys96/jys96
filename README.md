@@ -40,15 +40,6 @@ Last updated: 2026-05-10
 
 ## Featured Projects
 
-### [On You](https://github.com/SKNETWORKS-FAMILY-AICAMP/SKN23-4th-3Team) — AI Skincare Chatbot
-
-얼굴 피부 이미지와 사용자 대화 기반 맞춤형 스킨케어 추천 챗봇
-
-- **역할**: 5인 팀 / 프론트엔드 · 백엔드 · AI 파이프라인 핵심 기능 구현 및 서비스 흐름 설계
-- **AI**: Qwen2.5-VL · ResNet50 · ko-sroberta · ChromaDB · LangGraph 기반 이미지 분석 및 RAG 응답 흐름 구현
-- **Stack**: React · Flutter · FastAPI · Docker · AWS EC2
-- **결과**: 요청 → 분석 → 검색 → 응답 흐름을 단일 서비스로 통합, Google Play Store 내부 테스트까지 진행
-
 ### [withDOG](https://github.com/SKNETWORKS-FAMILY-AICAMP/SKN23-FINAL-3TEAM) — Pet-friendly Place AI Service
 
 반려견 동반 가능 장소를 추천하는 AI 챗봇
@@ -57,6 +48,15 @@ Last updated: 2026-05-10
 - **AI**: KoELECTRA · ko-sroberta · ChromaDB · OpenAI API
 - **Stack**: React · FastAPI · Docker · AWS RDS (MariaDB)
 - **결과**: 자체 평가셋 150건 구축, Hit@5 · Recall@5 · Refusal Rate 메트릭 기반 RAG 품질 평가 및 개선
+
+### [On You](https://github.com/SKNETWORKS-FAMILY-AICAMP/SKN23-4th-3Team) — AI Skincare Chatbot
+
+얼굴 피부 이미지와 사용자 대화 기반 맞춤형 스킨케어 추천 챗봇
+
+- **역할**: 5인 팀 / 프론트엔드 · 백엔드 · AI 파이프라인 핵심 기능 구현 및 서비스 흐름 설계
+- **AI**: Qwen2.5-VL · ResNet50 · ko-sroberta · ChromaDB · LangGraph 기반 이미지 분석 및 RAG 응답 흐름 구현
+- **Stack**: React · Flutter · FastAPI · Docker · AWS EC2
+- **결과**: 요청 → 분석 → 검색 → 응답 흐름을 단일 서비스로 통합, Google Play Store 내부 테스트까지 진행
 
 ### G-SAM — Media Asset Management Platform
 
@@ -171,15 +171,13 @@ Last updated: 2026-05-10
 
 <div align="center">
 
-  <img src="https://raw.githubusercontent.com/jys96/jys96/main/github-metrics.svg" alt="GitHub Metrics" />
-
-  <br /><br />
-
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=jys96&layout=donut&theme=tokyonight&hide_border=true&langs_count=8&cache_seconds=43200&v=3" alt="Top Languages" />
-
-  <br /><br />
-
+  <br />
+  
   <img src="https://komarev.com/ghpvc/?username=jys96&label=Profile+Views&color=8f64af&style=flat" alt="Profile Views" />
+
+  <br />
+
+  <img src="https://raw.githubusercontent.com/jys96/jys96/main/github-metrics.svg" alt="GitHub Metrics" />
 
 </div>
 

@@ -28,6 +28,11 @@ jobs:
           config_timezone: Asia/Seoul
           config_animations: yes
 
+          # 본인 소유 repo + organization member · collaborator 자격 repo 포함
+          # (부트캠프 SKNETWORKS-FAMILY-AICAMP 산하 SKN23-* repo 들 분석 대상에 포함)
+          repositories_affiliations: owner, collaborator, organization_member
+          repositories_forks: yes
+
           # 사용 언어 통계 (가로 바 차트, repo 자체 분석)
           plugin_languages: yes
           plugin_languages_ignored: html, scss, less
@@ -45,11 +50,8 @@ jobs:
           plugin_lines: yes
           plugin_lines_history_limit: 1
 
-          # 활동 지표 (커밋·이슈·PR) — filter 단순화
-          plugin_activity: yes
-          plugin_activity_limit: 5
-          plugin_activity_days: 14
-          plugin_activity_filter: issue, pr, release, fork
+          # 활동 지표 — Recent activity 권한·데이터 부족 에러 회피 위해 비활성
+          plugin_activity: no
 
           # 결과 SVG 파일명·커밋 위치
           filename: github-metrics.svg
