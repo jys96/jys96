@@ -86,3 +86,11 @@
     </div>
   </div>
 </div>
+
+## Personal LLM Wiki
+
+<!-- WIKI_STATS_BEGIN -->
+- **총 문서**: 129+
+- **이번 주 업데이트**: 129건
+- **주요 카테고리**: _(태그 추출 대기 중)_
+<!-- WIKI_STATS_END -->
