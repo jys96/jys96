@@ -175,6 +175,10 @@ Last updated: 2026-05-10
 
   <br /><br />
 
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=jys96&layout=donut&theme=tokyonight&hide_border=true&langs_count=8&cache_seconds=43200&v=3" alt="Top Languages" />
+
+  <br /><br />
+
   <img src="https://komarev.com/ghpvc/?username=jys96&label=Profile+Views&color=8f64af&style=flat" alt="Profile Views" />
 
 </div>

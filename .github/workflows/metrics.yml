@@ -28,13 +28,14 @@ jobs:
           config_timezone: Asia/Seoul
           config_animations: yes
 
-          # 사용 언어 통계
+          # 사용 언어 통계 (가로 바 차트, repo 자체 분석)
           plugin_languages: yes
           plugin_languages_ignored: html, scss, less
           plugin_languages_limit: 8
           plugin_languages_threshold: 1%
           plugin_languages_details: percentage, lines, bytes-size
-          plugin_languages_indepth: yes
+          plugin_languages_indepth: no
+          plugin_languages_sections: most-used
 
           # 잔디 (1년 ISO calendar)
           plugin_isocalendar: yes
@@ -44,11 +45,11 @@ jobs:
           plugin_lines: yes
           plugin_lines_history_limit: 1
 
-          # 활동 지표 (커밋·이슈·PR)
+          # 활동 지표 (커밋·이슈·PR) — filter 단순화
           plugin_activity: yes
           plugin_activity_limit: 5
           plugin_activity_days: 14
-          plugin_activity_filter: issue, pr, release, fork, review, ref/create
+          plugin_activity_filter: issue, pr, release, fork
 
           # 결과 SVG 파일명·커밋 위치
           filename: github-metrics.svg
