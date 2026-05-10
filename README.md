@@ -25,7 +25,9 @@ Last updated: 2026-05-10
 
 <div align="center">
 
-`AI Service Engineering` · `RAG Pipeline Design` · `LLM Evaluation` · `AI UX Flow` · `FastAPI Backend` · `React Frontend` · `Docker / AWS Deployment`
+  `AI Service Engineering` · `RAG Pipeline Design` · `LLM Evaluation`
+    
+  `AI UX Flow` · `FastAPI Backend` · `React Frontend` · `Docker / AWS Deployment`
 
 </div>
 
@@ -70,11 +72,13 @@ Last updated: 2026-05-10
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=fff" />
   <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=fff" />
   <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=000" />
+  <img src="https://img.shields.io/badge/Vue.js-4FC08D?style=for-the-badge&logo=vuedotjs&logoColor=fff" />
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=fff" />
+  <img src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=fff" />
   <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=fff" />
   <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=fff" />
-  <img src="https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=fff" />
-  <img src="https://img.shields.io/badge/LangGraph-1C3C3C?style=for-the-badge&logo=langchain&logoColor=fff" />
-  <img src="https://img.shields.io/badge/ChromaDB-FF6F00?style=for-the-badge&logoColor=fff" />
+  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=000" />
+  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=fff" />
 </p>
 
 </div>
