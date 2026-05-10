@@ -1,0 +1,59 @@
+name: Update Wiki Stats
+
+on:
+  # wiki-self / wiki-withDOG 의 push 트리거에 의해 외부에서 호출됨
+  repository_dispatch:
+    types: [wiki-updated]
+  # 수동 실행 + 안전망용 매일 cron
+  workflow_dispatch:
+  schedule:
+    - cron: '0 15 * * *'  # 매일 KST 00:00 (UTC 15:00)
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout profile repo
+        uses: actions/checkout@v4
+
+      - name: Checkout wiki-self
+        uses: actions/checkout@v4
+        with:
+          repository: jys96/wiki-self
+          token: ${{ secrets.WIKI_PAT }}
+          path: _wiki/wiki-self
+          fetch-depth: 0
+
+      - name: Checkout wiki-withDOG
+        uses: actions/checkout@v4
+        with:
+          repository: jys96/wiki-withDOG
+          token: ${{ secrets.WIKI_PAT }}
+          path: _wiki/wiki-withDOG
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install deps
+        run: pip install pyyaml
+
+      - name: Run stats script
+        run: python scripts/wiki_stats.py
+
+      - name: Commit & push
+        run: |
+          git config user.name "wiki-stats-bot"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          if git diff --staged --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "chore: update wiki stats [skip ci]"
+            git push
+          fi
