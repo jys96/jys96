@@ -21,18 +21,11 @@ Last updated: 2026-05-10
 
 <br />
 
-## Contact
+## Core Keywords
 
 <div align="center">
 
-  <p>
-    <img src="https://cdn.simpleicons.org/kakaotalk/FFCD00" width="20" valign="middle" alt="Kakao" />
-    &nbsp;<a href="mailto:acft9609@kakao.com">acft9609@kakao.com</a>
-  </p>
-  <p>
-    <img src="https://cdn.simpleicons.org/gmail/EA4335" width="20" valign="middle" alt="Gmail" />
-    &nbsp;<a href="mailto:acft9609@gmail.com">acft9609@gmail.com</a>
-  </p>
+`AI Service Engineering` · `RAG Pipeline Design` · `LLM Evaluation` · `AI UX Flow` · `FastAPI Backend` · `React Frontend` · `Docker / AWS Deployment`
 
 </div>
 
@@ -67,33 +60,31 @@ Last updated: 2026-05-10
 
 <br />
 
-## Currently Focusing On
-
-- **RAG Evaluation** — 자체 평가셋 기반 Hit@5 · Recall@5 · Refusal Rate 메트릭 적용
-- **AI Service Architecture** — 요청 → 분석 → 검색 → 응답 흐름 단일 서비스 설계
-- **LLM Application Engineering** — OpenAI · LangGraph 기반 응답 안정성 개선
-- **FastAPI 기반 AI Backend** — 비동기 처리 · 에러 핸들링 · 평가 자동화
-- **AI UX / Service Flow** — AI 기능을 사용자 경험으로 완성하는 설계
-
-<br />
-
-## Personal LLM Wiki
-
-> Obsidian + LLM 기반 코드·결정·경험 캐시 운영. 같은 코드를 두 번 분석하지 않는 토큰 절약 워크플로우.
-
-<!-- WIKI_STATS_BEGIN -->
-- **총 문서**: 129+
-- **이번 주 업데이트**: 129건
-- **주요 카테고리**: _(태그 추출 대기 중)_
-<!-- WIKI_STATS_END -->
-
-<br />
-
 ## Tech Stack
 
 <div align="center">
 
-### AI / LLM
+### Main Stack
+
+<p>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=fff" />
+  <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=fff" />
+  <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=000" />
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=fff" />
+  <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=fff" />
+  <img src="https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=fff" />
+  <img src="https://img.shields.io/badge/LangGraph-1C3C3C?style=for-the-badge&logo=langchain&logoColor=fff" />
+  <img src="https://img.shields.io/badge/ChromaDB-FF6F00?style=for-the-badge&logoColor=fff" />
+</p>
+
+</div>
+
+<details>
+  <summary><b>전체 기술 스택 보기</b></summary>
+
+<div align="center">
+
+#### AI / LLM
 
 <p>
   <img src="https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=fff" />
@@ -107,7 +98,7 @@ Last updated: 2026-05-10
   <img src="https://img.shields.io/badge/sentence--transformers-009688?style=for-the-badge&logoColor=fff" />
 </p>
 
-### Backend
+#### Backend
 
 <p>
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=fff" />
@@ -116,7 +107,7 @@ Last updated: 2026-05-10
   <img src="https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=fff" />
 </p>
 
-### Frontend
+#### Frontend
 
 <p>
   <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=000" />
@@ -129,10 +120,9 @@ Last updated: 2026-05-10
   <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=fff" />
   <img src="https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=fff" />
   <img src="https://img.shields.io/badge/styled--components-DB7093?style=for-the-badge&logo=styledcomponents&logoColor=fff" />
-  <img src="https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=fff" />
 </p>
 
-### Database
+#### Database
 
 <p>
   <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=fff" />
@@ -140,7 +130,7 @@ Last updated: 2026-05-10
   <img src="https://img.shields.io/badge/ChromaDB-FF6F00?style=for-the-badge&logoColor=fff" />
 </p>
 
-### Infra & DevOps
+#### Infra & DevOps
 
 <p>
   <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=fff" />
@@ -149,7 +139,7 @@ Last updated: 2026-05-10
   <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=000" />
 </p>
 
-### Collaboration & Tools
+#### Collaboration & Tools
 
 <p>
   <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=fff" />
@@ -165,19 +155,68 @@ Last updated: 2026-05-10
 
 </div>
 
+</details>
+
+<br />
+
+## Currently Focusing On
+
+- **RAG Evaluation** — 자체 평가셋 기반 Hit@5 · Recall@5 · Refusal Rate 메트릭 적용
+- **AI Service Architecture** — 요청 → 분석 → 검색 → 응답 흐름 단일 서비스 설계
+- **LLM Application Engineering** — OpenAI · LangGraph 기반 응답 안정성 개선
+- **FastAPI 기반 AI Backend** — 비동기 처리 · 에러 핸들링 · 평가 자동화
+- **AI UX / Service Flow** — AI 기능을 사용자 경험으로 완성하는 설계
+
+<br />
+
+## Engineering Workflow
+
+> Obsidian + LLM 기반 개발 생산성 시스템. 코드·결정·트러블슈팅을 AI 가 읽고 캐시하는 워크플로우 운영.
+
+- **Personal LLM Wiki** — 프로젝트 이슈·설계·결정·트러블슈팅 기록을 Obsidian + Claude 로 자동 캐시
+- **Code Analysis Cache** — 같은 코드를 두 번 분석하지 않는 토큰 절약 흐름 (`wiki/{NN-카테고리}/` 9종)
+- **Multi-AI Cross-Review** — Claude · GPT · Gemini · Codex 교차 검토로 산출물 정확도 강화
+- **RAG · FastAPI · Infra 문제 해결 기록 아카이빙** — 동일 문제 재발생 시 즉시 회수 가능
+
+<details>
+  <summary><b>Wiki Stats (자동 갱신)</b></summary>
+
+<!-- WIKI_STATS_BEGIN -->
+- **총 문서**: 129+
+- **이번 주 업데이트**: 129건
+- **주요 카테고리**: _(태그 추출 대기 중)_
+<!-- WIKI_STATS_END -->
+
+</details>
+
 <br />
 
 ## GitHub Stats
 
 <div align="center">
 
-  <br />
-  
   <img src="https://komarev.com/ghpvc/?username=jys96&label=Profile+Views&color=8f64af&style=flat" alt="Profile Views" />
 
   <br />
 
   <img src="https://raw.githubusercontent.com/jys96/jys96/main/github-metrics.svg" alt="GitHub Metrics" />
+
+</div>
+
+<br />
+
+## Contact
+
+<div align="center">
+
+  <p>
+    <img src="https://cdn.simpleicons.org/kakaotalk/FFCD00" width="20" valign="middle" alt="Kakao" />
+    &nbsp;<a href="mailto:acft9609@kakao.com">acft9609@kakao.com</a>
+  </p>
+  <p>
+    <img src="https://cdn.simpleicons.org/gmail/EA4335" width="20" valign="middle" alt="Gmail" />
+    &nbsp;<a href="mailto:acft9609@gmail.com">acft9609@gmail.com</a>
+  </p>
 
 </div>
 
