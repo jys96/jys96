@@ -144,12 +144,13 @@ def main() -> None:
         re.DOTALL,
     )
     if pattern.search(readme):
-        readme = pattern.sub(new_block, readme)
+        # 마커가 여러 개 있어도 첫 번째 쌍만 갱신 (중복 방지)
+        readme = pattern.sub(new_block, readme, count=1)
+        README.write_text(readme, encoding="utf-8")
     else:
-        # 마커가 README 에 없을 경우 끝에 부착 (안전 장치)
-        readme = readme.rstrip() + "\n\n## Personal LLM Wiki\n\n" + new_block + "\n"
-
-    README.write_text(readme, encoding="utf-8")
+        # 마커가 README 에 없으면 끝에 박지 않고 종료 (사용자 의도 보존, 중복 섹션 방지)
+        print("WIKI_STATS markers not found in README.md — skipping update.")
+        return
 
 
 if __name__ == "__main__":

@@ -82,9 +82,9 @@ Last updated: 2026-05-10
 > Obsidian + LLM 기반 코드·결정·경험 캐시 운영. 같은 코드를 두 번 분석하지 않는 토큰 절약 워크플로우.
 
 <!-- WIKI_STATS_BEGIN -->
-- **총 문서**: 0+
-- **이번 주 업데이트**: 0건
-- **주요 카테고리**: _(첫 갱신 대기 중)_
+- **총 문서**: 129+
+- **이번 주 업데이트**: 129건
+- **주요 카테고리**: _(태그 추출 대기 중)_
 <!-- WIKI_STATS_END -->
 
 <br />
@@ -171,12 +171,7 @@ Last updated: 2026-05-10
 
 <div align="center">
 
-  <img height="180" src="https://github-readme-stats.vercel.app/api?username=jys96&show_icons=true&theme=tokyonight&hide_border=true&cache_seconds=43200&v=2" alt="jys96 GitHub Stats" />
-  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=jys96&layout=compact&theme=tokyonight&hide_border=true&langs_count=8&cache_seconds=43200&v=2" alt="Top Languages" />
-
-  <br /><br />
-
-  <img height="180" src="https://streak-stats.demolab.com?user=jys96&theme=tokyonight&hide_border=true&v=2" alt="GitHub Streak" />
+  <img src="https://raw.githubusercontent.com/jys96/jys96/main/github-metrics.svg" alt="GitHub Metrics" />
 
   <br /><br />
 
@@ -189,11 +184,3 @@ Last updated: 2026-05-10
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&height=120&color=0:fcdbe4,100:bdbcf6&section=footer" alt="footer" />
 </div>
-
-## Personal LLM Wiki
-
-<!-- WIKI_STATS_BEGIN -->
-- **총 문서**: 129+
-- **이번 주 업데이트**: 129건
-- **주요 카테고리**: _(태그 추출 대기 중)_
-<!-- WIKI_STATS_END -->
