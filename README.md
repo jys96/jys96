@@ -189,3 +189,11 @@ Last updated: 2026-05-10
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&height=120&color=0:fcdbe4,100:bdbcf6&section=footer" alt="footer" />
 </div>
+
+## Personal LLM Wiki
+
+<!-- WIKI_STATS_BEGIN -->
+- **총 문서**: 129+
+- **이번 주 업데이트**: 129건
+- **주요 카테고리**: _(태그 추출 대기 중)_
+<!-- WIKI_STATS_END -->
