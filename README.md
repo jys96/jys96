@@ -14,10 +14,12 @@ Last updated: 2026-05-10
 
 ## About Me
 
-- **상상을 AI 서비스로 완성하는 개발자, 정유선입니다.**
-- 퍼블리싱 · 프론트 · 풀스택 **4년 8개월 실무** → SKN AI 부트캠프 SKN23기 수료 예정 (2026-05-20)
+- **화면·API·데이터·AI를 하나의 서비스 흐름으로 연결하는 AI 풀스택 개발자입니다.**
+- 퍼블리싱 · 프론트 · 풀스택 **4년 8개월 실무** → SKN AI 부트캠프 SKN23기 수료 (2026-05-20)
 - 관심 영역: **RAG 설계 · LLM 응답 평가 · 벡터 검색 · 서비스 흐름 안정성**
+<!--
 - 진행 프로젝트: `withDOG` (반려견 동반 장소 추천)
+-->
 
 <br />
 
@@ -41,7 +43,7 @@ Last updated: 2026-05-10
 
 - **역할**: 3인 팀 / PM 겸 풀스택 — KoELECTRA 의도분류 fine-tuning · 시설정보 RAG 직접 구현
 - **AI**: KoELECTRA · ko-sroberta · ChromaDB · OpenAI API
-- **Stack**: React · FastAPI · Docker · AWS RDS (MariaDB)
+- **Stack**: React · FastAPI · Docker · AWS EC2 S3 RDS (MySQL)
 - **결과**: 자체 평가셋 150건 구축, Hit@5 · Recall@5 · Refusal Rate 메트릭 기반 RAG 품질 평가 및 개선
 
 ### [On You](https://github.com/SKNETWORKS-FAMILY-AICAMP/SKN23-4th-3Team) — AI Skincare Chatbot
@@ -50,7 +52,7 @@ Last updated: 2026-05-10
 
 - **역할**: 5인 팀 / 프론트엔드 · 백엔드 · AI 파이프라인 핵심 기능 구현 및 서비스 흐름 설계
 - **AI**: Qwen2.5-VL · ResNet50 · ko-sroberta · ChromaDB · LangGraph 기반 이미지 분석 및 RAG 응답 흐름 구현
-- **Stack**: React · Flutter · FastAPI · Docker · AWS EC2
+- **Stack**: React · Flutter · FastAPI · Docker · AWS EC2 S3 RDS (MariaDB)
 - **결과**: 요청 → 분석 → 검색 → 응답 흐름을 단일 서비스로 통합, Google Play Store 내부 테스트까지 진행
 
 ### G-SAM — Media Asset Management Platform
@@ -75,6 +77,8 @@ Last updated: 2026-05-10
   <img src="https://img.shields.io/badge/Vue.js-4FC08D?style=for-the-badge&logo=vuedotjs&logoColor=fff" />
   <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=fff" />
   <img src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=fff" />
+</p>
+<p>
   <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=fff" />
   <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=fff" />
   <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=000" />
