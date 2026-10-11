@@ -15,7 +15,7 @@ Last updated: 2026-05-10
 ## About Me
 
 - **화면·API·데이터·AI를 하나의 서비스 흐름으로 연결하는 AI 풀스택 개발자입니다.**
-- 퍼블리싱 · 프론트 · 풀스택 **4년 8개월 실무** → SKN AI 부트캠프 SKN23기 수료 (2026-05-20)
+- 퍼블리싱 · 프론트 · 풀스택 **4년 5개월 실무** → SKN AI 부트캠프 SKN23기 수료 (2026-05-20)
 - 관심 영역: **RAG 설계 · LLM 응답 평가 · 벡터 검색 · 서비스 흐름 안정성**
 <!--
 - 진행 프로젝트: `withDOG` (반려견 동반 장소 추천)
@@ -44,14 +44,14 @@ Last updated: 2026-05-10
 - **역할**: 3인 팀 / PM 겸 풀스택 — KoELECTRA 의도분류 fine-tuning · 시설정보 RAG 직접 구현
 - **AI**: KoELECTRA · ko-sroberta · ChromaDB · OpenAI API
 - **Stack**: React · FastAPI · Docker · AWS EC2 S3 RDS (MySQL)
-- **결과**: 자체 평가셋 150건 구축, Hit@5 · Recall@5 · Refusal Rate 메트릭 기반 RAG 품질 평가 및 개선
+- **결과**: KoELECTRA 의도분류 학습부터 FastAPI 서빙까지 단독 구현 (검증 정확도 0.9955), Hit@5 · Recall@5 · Refusal Rate 지표 계산과 회귀 실행 코드 작성, SK네트웍스 Family AI 캠프 23기 최종 프로젝트 우수상
 
 ### [On You](https://github.com/SKNETWORKS-FAMILY-AICAMP/SKN23-4th-3Team) — AI Skincare Chatbot
 
 얼굴 피부 이미지와 사용자 대화 기반 맞춤형 스킨케어 추천 챗봇
 
-- **역할**: 5인 팀 / 프론트엔드 · 백엔드 · AI 파이프라인 핵심 기능 구현 및 서비스 흐름 설계
-- **AI**: Qwen2.5-VL · ResNet50 · ko-sroberta · ChromaDB · LangGraph 기반 이미지 분석 및 RAG 응답 흐름 구현
+- **역할**: 5인 팀 / React 프론트엔드 · FastAPI 백엔드 · RAG 데이터 파이프라인 구현 (이미지 분석과 LangGraph 라우팅은 팀원 담당)
+- **AI**: PubMed · 식약처 화장품 보고서 수집 · 번역 · 분할 후 ko-sroberta 임베딩으로 ChromaDB에 23만+ 조각 적재, RAG 검색 응답 연결
 - **Stack**: React · Flutter · FastAPI · Docker · AWS EC2 S3 RDS (MariaDB)
 - **결과**: 요청 → 분석 → 검색 → 응답 흐름을 단일 서비스로 통합, Google Play Store 내부 테스트까지 진행
 
@@ -60,7 +60,7 @@ Last updated: 2026-05-10
 방송사용 미디어 자산 관리 플랫폼 (제머나이소프트 재직 중 참여)
 
 - **역할**: Frontend Lead / 풀스택 — Vue.js · PHP/Laravel
-- **결과**: CJ ENM · 아리랑TV 등 주요 방송사 도입, 솔루션 판매·유지보수 계약으로 회사 매출 43% 성장 기여
+- **결과**: 플랫폼마다 달라 값이 틀어지던 SNS 통계 수집을 3단계 동기화 구조로 재설계, 핵심 기능인 SAM/Social 서비스를 CJ ENM · SBS · 아리랑TV에 도입, 솔루션 판매 및 유지보수 계약 확보를 통한 회사 매출 43% 이상 증가 기여
 
 <br />
 
@@ -169,9 +169,9 @@ Last updated: 2026-05-10
 
 ## Currently Focusing On
 
-- **RAG Evaluation** — 자체 평가셋 기반 Hit@5 · Recall@5 · Refusal Rate 메트릭 적용
+- **RAG Evaluation** — Hit@5 · Recall@5 · Refusal Rate 지표 계산과 회귀 실행 자동화
 - **AI Service Architecture** — 요청 → 분석 → 검색 → 응답 흐름 단일 서비스 설계
-- **LLM Application Engineering** — OpenAI · LangGraph 기반 응답 안정성 개선
+- **LLM Application Engineering** — 의도분류 경량 모델로 매 요청 LLM 호출을 줄이는 응답 흐름 설계
 - **FastAPI 기반 AI Backend** — 비동기 처리 · 에러 핸들링 · 평가 자동화
 - **AI UX / Service Flow** — AI 기능을 사용자 경험으로 완성하는 설계
 
